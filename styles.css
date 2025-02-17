@@ -6,27 +6,34 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-    padding: 20px;
+    color: #ece4e4;
+    background-color: #333;
+}
+
+main {
+    padding: 1rem;
+    max-width: 900px;
+    margin: auto;
 }
 
 /* Flexbox navigation */
-nav ul {
+.navbar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     list-style: none;
     background: #222;
-    padding: 10px;
+    padding:  1rem;
+    margin: 0;
 }
 
-nav ul li {
-    margin: 0 15px;
+.navbar li {
+    margin: 0 20px;
 }
 
-nav ul li a {
+.navbar li a {
     color: white;
     text-decoration: none;
+    padding-left: 15px;
 }
 
 /* Responsive images */
