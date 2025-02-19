@@ -33,6 +33,7 @@ main {
     flex-grow: 1;
     padding: 2rem;
     margin: auto;
+    animation: fadeIn 0.8s ease-in-out;
 }
 
 h1, h2 {
@@ -88,9 +89,7 @@ p {
 }
 
 /* Left-side text */
-.intro {
-    animation: fadeIn 0.8s ease-in-out;
-}
+
 .intro article {
     flex: 1;
     max-width: 50%;
@@ -111,9 +110,6 @@ p {
 
 /*** about.html ***/
 
-.about-text, .about-more-info {
-    animation: fadeIn 0.8s ease-in-out;
-}
 .about-more-info {
     display: flex;
     justify-content: space-between;
@@ -165,7 +161,6 @@ p {
 /*** projects.html ***/
 .project-page {
     margin-bottom: 1rem;
-    animation: fadeIn 0.8s ease-in-out;
 }
 
 .project-content {
@@ -200,7 +195,6 @@ p {
     width: 100%;
     margin: auto;
     padding: 2rem;
-    animation: fadeIn 0.8s ease-in-out;
 }
 
 /* Resume Container */
